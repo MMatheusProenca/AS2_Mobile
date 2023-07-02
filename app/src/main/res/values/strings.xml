@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AlertaJA</string>
+    <string name="logo_da_aplicacao_description">Logo da aplicação</string>
+    <string name="ola">E aí!</string>
+    <string name="eventos_acontecendo">Eventos acontecendo</string>
+    <string name="undo">Desfazer</string>
+    <string name="remove_event">Removido</string>
+    <string name="attention">Atenção</string>
+    <string name="empty_contact_alert_msg">Informações vazias, é peciso ter no mínimmo 2 caracteres nos dados</string>
+</resources>
