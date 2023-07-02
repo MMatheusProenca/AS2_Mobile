@@ -71,7 +71,7 @@ public class EventDataBase extends SQLiteOpenHelper {
                 long ID = cursor.getLong(cursor.getColumnIndexOrThrow(COL_ID));
                 String name = cursor.getString(cursor.getColumnIndexOrThrow(COL_NAME));
                 String date = cursor.getString(cursor.getColumnIndexOrThrow(COL_DATE));
-                String local = cursor.getString(cursor.getColumnIndexOrThrow(COL_ID));
+                String local = cursor.getString(cursor.getColumnIndexOrThrow(COL_LOCAL));
                 String description = cursor.getString(cursor.getColumnIndexOrThrow(COL_DESCRIPTION));
                 events.add(new Event(ID, name, date, local, description));
             }while (cursor.moveToNext());
